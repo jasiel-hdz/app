@@ -1,0 +1,8 @@
+version: '3'
+services:
+  angular-prueba:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./dist:/usr/share/nginx/html/bnetprueba
